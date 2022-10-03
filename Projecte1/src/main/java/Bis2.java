@@ -10,7 +10,7 @@ public class Bis2 {
         fi = sc.nextByte();
 
         while (inici !=fi) {
-            System.out.println(inici);
+            System.out.print(inici);
             if (inici%2 == 0) {
                 System.out.println(" És parell");
             } else {
