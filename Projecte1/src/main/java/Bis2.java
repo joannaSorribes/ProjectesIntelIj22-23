@@ -4,9 +4,9 @@ public class Bis2 {
         Scanner sc = new Scanner(System.in);
         byte inici, fi;
 
-        System.out.println("Introdueix un valor per iniciar entre -50 i 127 ");
+        System.out.println("Introdueix un valor per iniciar entre -128 i 127 ");
         inici = sc.nextByte();
-        System.out.println("Introdueix un valor per acabar entre -50 i 127 ");
+        System.out.println("Introdueix un valor per acabar entre -128 i 127 ");
         fi = sc.nextByte();
 
         while (inici !=fi) {
