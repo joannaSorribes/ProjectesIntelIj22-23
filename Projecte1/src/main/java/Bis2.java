@@ -17,15 +17,12 @@ public class Bis2 {
                 System.out.println(" És imparell");
 
             }inici++;
+        } 
+        if (fi % 2 == 0) {
+            System.out.print(fi + " És parell ");
+        } else {
+            System.out.print(fi + " És imparell ");
         }
 
     }
 }
-/*while (i <=n && i>=-50) {
-        System.out.print(i);
-        if (i%2 == 0) {
-        System.out.println(" És parell");
-        }else System.out.println(" És Imparell");
-        i++;
-*/
-
